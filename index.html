@@ -142,7 +142,7 @@ async function send(){
     addMsg(`<b>Gransdraknet:</b><br>${data.reply}`, 'ai');
   }catch(e){
     typing.remove();
-    addMsg('Error. Backend lu belum nyala.', 'ai');
+    addMsg('Error. Apikey belum di setting atau limit', 'ai');
   }
 }
 
